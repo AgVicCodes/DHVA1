@@ -12,6 +12,8 @@ plt.figure()
 point1 = [3, 7]
 point2 = [5, 2]
 
+# Defining values for y using the equation of a line (y = mx + c)
+
 plt.grid(True)
 plt.plot(x, y, "k-")
 plt.scatter(point1, point2, c = "#3d3d3dcc", s = 100)
